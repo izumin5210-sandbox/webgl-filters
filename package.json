@@ -1,0 +1,31 @@
+{
+  "name": "webgl-filters",
+  "description": "Samples for filters w/ React and WebGL",
+  "version": "1.0.0",
+  "author": {
+    "name": "Masayuki IZUMI",
+    "email": "masayuki@izumin.info",
+    "url": "http://izumin.info/"
+  },
+  "bugs": {
+    "url": "https://github.com/izumin5210/webgl-filters/issues"
+  },
+  "homepage": "https://github.com/izumin5210/webgl-filters#readme",
+  "keywords": [
+    "React",
+    "WebGL"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "http://izumin.mit-license.org/2016"
+  },
+  "main": "index.js",
+  "priavte": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izumin5210/webgl-filters.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
