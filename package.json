@@ -10,6 +10,13 @@
   "bugs": {
     "url": "https://github.com/izumin5210/webgl-filters/issues"
   },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-2": "^6.13.0",
+    "babelify": "^7.3.0",
+    "watchify": "^3.7.0"
+  },
   "homepage": "https://github.com/izumin5210/webgl-filters#readme",
   "keywords": [
     "React",
@@ -26,6 +33,8 @@
     "url": "git+https://github.com/izumin5210/webgl-filters.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "watchify src/app.js -o lib/app.js -t babelify",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify src/app.js -o lib/app.js -t babelify"
   }
 }
